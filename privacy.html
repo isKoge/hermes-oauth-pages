@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>隐私政策 · Hermes Drive Access</title>
+<style>
+  body{max-width:44rem;margin:3rem auto;padding:0 1.25rem;font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;color:#1f2328;background:#fff}
+  h1{font-size:1.55rem;margin-bottom:.25rem}
+  h2{font-size:1.05rem;margin-top:2rem}
+  .sub{color:#57606a;margin-top:0}
+  ul{padding-left:1.2rem}
+  a{color:#0969da}
+  footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #d0d7de;color:#57606a;font-size:.875rem}
+  @media (prefers-color-scheme: dark){body{background:#0d1117;color:#e6edf3}.sub,footer{color:#8b949e}a{color:#4493f8}footer{border-color:#30363d}}
+</style>
+</head>
+<body>
+<h1>隐私政策</h1>
+<p class="sub">Hermes Drive Access · 最后更新 2026-10-27</p>
+
+<h2>1. 适用范围</h2>
+<p>本政策适用于 <strong>Hermes Drive Access</strong>（下称“本应用”）。本应用是仅供其所有者个人使用的本地自动化工具，不向公众提供服务，不收集第三方用户的任何信息。</p>
+
+<h2>2. 我们访问哪些数据</h2>
+<p>在所有者本人完成 Google OAuth 授权后，本应用可以通过 Google Drive API 访问该账号中的文件、文件夹及其元数据（名称、类型、大小、修改时间）。访问范围限于完成所有者下达的具体任务（例如搜索、下载、上传、整理文件）。</p>
+
+<h2>3. 数据存放在哪里</h2>
+<ul>
+  <li><strong>授权令牌</strong>：保存在所有者本人的电脑上，文件权限为仅本人可读（<code>0600</code>）。</li>
+  <li><strong>文件内容</strong>：仅在执行任务时于本机与 Google 服务器之间直接传输，不写入任何第三方数据库，不上传到应用作者的服务器——本应用没有服务器。</li>
+  <li><strong>日志</strong>：仅在本机记录操作记录（例如“已下载某文件”），用于排查问题，不包含文件内容。</li>
+</ul>
+
+<h2>4. 数据共享</h2>
+<p>不共享、不出售、不转让任何数据给第三方。除 Google 官方 API 之外，本应用不向任何外部服务发送数据。</p>
+
+<h2>5. 数据保留与删除</h2>
+<p>所有者可随时撤回授权（访问 <a href="https://myaccount.google.com/permissions">Google 账号权限页</a>），撤回后本应用立即失去访问能力；本地令牌文件可随时删除。文件本身始终保存在所有者的 Google 云端硬盘中，本应用不会另行留存副本。</p>
+
+<h2>6. 安全</h2>
+<p>令牌仅存放于本机并限制文件权限；不在日志、配置或代码中明文记录令牌内容。所有 API 请求通过 HTTPS 直连 Google 官方端点。</p>
+
+<h2>7. 儿童隐私</h2>
+<p>本应用不面向儿童，也不收集任何人的个人信息。</p>
+
+<h2>8. 政策变更</h2>
+<p>若本政策发生变更，将更新本页面顶部的日期。</p>
+
+<h2>9. 联系方式</h2>
+<p>如有疑问：<a href="mailto:jianweizhang2024@gmail.com">jianweizhang2024@gmail.com</a></p>
+
+<footer>
+  <p><a href="./index.html">返回应用首页</a></p>
+</footer>
+</body>
+</html>
